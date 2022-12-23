@@ -1,2 +1,10 @@
 # WBFlixDeath
-Web flix admin
+
+WEB FLIX ADMIN PANEL
+
+REQUIREMENTS for WINDOWNS
+
+Python
+Pip
+Firefox
+Selenium WebDriver
