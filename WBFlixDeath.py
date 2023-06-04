@@ -17,14 +17,6 @@ usernameforall = "HACKED BY RESISTENCIA"
 
 os.system("cls")
 
-print(" __          __  ____    ______   _   _          _____                   _     _")     
-print(" \ \        / / |  _ \  |  ____| | | (_)        |  __ \                 | |   | |    ")
-print("  \ \  /\  / /  | |_) | | |__    | |  _  __  __ | |  | |   ___    __ _  | |_  | |__  ")
-print("   \ \/  \/ /   |  _ <  |  __|   | | | | \ \/ / | |  | |  / _ \  / _` | | __| | '_ \ ")
-print("    \  /\  /    | |_) | | |      | | | |  >  <  | |__| | |  __/ | (_| | | |_  | | | |")
-print("     \/  \/     |____/  |_|      |_| |_| /_/\_\ |_____/   \___|  \__,_|  \__| |_| |_|")
-print("                                        RͭSͤTͣRͫ")
-
 def banner():
     os.system("cls")
     print(" __          __  ____    ______   _   _          _____                   _     _")     
@@ -35,8 +27,6 @@ def banner():
     print("     \/  \/     |____/  |_|      |_| |_| /_/\_\ |_____/   \___|  \__,_|  \__| |_| |_|")
     print("                                        RͭSͤTͣRͫ")
 
-
-#print("TestPanel")
 def main():
     banner()
     IJIJJJJIIJJJIJJJIJIIIJJJIJJJJJJJJIIJJJIIJJ()
@@ -52,7 +42,6 @@ def IJIJJJJIIJJJIJJJIJIIIJJJIJJJJJJJJIIJJJIIJJ():
         banner()
         main()
      
-
 def JIJJJJIIJJJIJIJJJJIIIIIIJJJJJJIIJJJJIIIJJJ():
     print(">>> Logging in ADMIN page! " + thewebsiteurl_login)
     driver.get(thewebsiteurl_login) #Open browser
@@ -87,7 +76,6 @@ def JIJJJJIIJJJIJJJJJIIIIIIJJJJJJIIJJJJIIIJJJ():
        print("Not work")
        JIJJJJIIJJJIJJJJJIIIIIIJJJJJJIIJJJJIIIJJJ()
     
-
 def IJIJJJJIIJJJIJJJIJIIIIIJJJJJJJIIJJJIIIJJJ():
     nmrstrmin = str(mintest)
     nmrstrmax = str(maxtest)
@@ -158,7 +146,6 @@ def JIJJJJJJJJJJJJJJJJJJJIIJJJJJJIIJJJJJJIIIJ():
         IJIJJJJIIJJJIJJJIJIIIIIJJJJJJJIIJJJIIIJJJ()
     elif op3:
         JIJJJJIIJJJIJJJIJIIIIIIJJJJJJJIIJIJJIIIJJJ(op3)
-
 
 def JIJJJJIIJJJIJJJIJIIIIIJJJJJJJIIJJJJIIIJJJ():
     index = random.randint(mintest, maxtest)
@@ -259,7 +246,6 @@ def JIJJJJIIJJJIJJJIJIIIIIIJJJJJJJIIJIJJIIIJJJ(stringtest):
          print(">>> Closing script! bye bye")
          quit()
          #driver.close()
-        
 
 if __name__ == '__main__':
     main()
